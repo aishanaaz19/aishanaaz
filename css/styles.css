@@ -13,11 +13,13 @@ body{
 	position:absolute;
 	right: 300px;
 	top:50px;
+	width: 10%;
 }
 .bottom-cloud {
 	position:absolute;
 	left:300px;
 	bottom: 300px;
+	width: 10%;
 }
 .bio{
 	font-family: 'Montserrat', sans-serif;
@@ -35,6 +37,7 @@ h2{
 	font-size: 2.5rem;
 	color: #66bfbf;
 	font-weight: normal;
+	padding-bottom: 10px;
 }
 h3{
 	font-family: 'Montserrat', sans-serif;
@@ -47,6 +50,11 @@ p{
 }
 a{
 	color: #11999e;
+	margin: 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: #eaf6f6;
 }
 hr{
 	border-style: hidden;
@@ -55,6 +63,9 @@ hr{
 	border-top-style: dotted;
     border-width: 6px;
 	width: 5%;
+}
+.middle-container{
+	margin: 100px auto;
 }
 .profile{
 	width: 30%;
@@ -82,9 +93,13 @@ hr{
 	margin-right: 30px;
 }
 .contact-me{
-	width: 50%;
+	/*width: 50%;*/
 	margin: 100px auto;
 	line-height: 2;
+}
+.contact-msg{
+	width: 40%;
+	margin: 40px auto 60px;
 }
 .btn {
   background: #11cdd4;
@@ -97,7 +112,7 @@ hr{
   -moz-border-radius: 9;
   border-radius: 9px;
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
+  color: #eaf6f6;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -113,4 +128,20 @@ hr{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
   margin: 100px auto;
+}
+
+.bottom-container{
+	margin: 0;
+	padding: 50px;
+	background-color: #66bfbf;
+}
+.footer-link{
+	margin: 20px;
+	color: #11666e;
+	text-decoration: none;
+}
+.credit{
+	margin-top: 50px;
+	color: #eaf6f6;
+	font-size: 0.75rem;
 }
