@@ -7,13 +7,11 @@ body{
 	background-color: #e4f9f5;
 	position: relative;
 	padding-top: 100px;
-	width: 100%;
 }
 .top-cloud{
 	position:absolute;
 	right: 300px;
 	top:50px;
-	width: 10%;
 }
 .bottom-cloud {
 	position:absolute;
